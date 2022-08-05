@@ -1,5 +1,9 @@
 # k fold cross validation
  
+ `kfold.py` provides generic k-fold cross validation dataset breakpoints
+
+ `tfds_kfold.py` provides `kfold.py` application on Tensorflow datasets with tfds slicing API https://www.tensorflow.org/datasets/splits
+
 ```
 FOLD 1
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
