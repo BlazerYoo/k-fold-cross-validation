@@ -12,8 +12,8 @@ import matplotlib.pyplot as plt
 Constants
 """
 DATASET = "mnist"
-IMG_HEIGHT = 180
-IMG_WIDTH = 180
+IMG_HEIGHT = 28
+IMG_WIDTH = 28
 SEED = 42
 MODEL_NAME = "/path/to/exported/model"
 
